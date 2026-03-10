@@ -1,0 +1,10 @@
+new_lst=[1,2,3,4,5,4]
+print(new_lst[3])
+new_lst.append(23)
+print(new_lst)
+new_lst.remove(4)
+print(new_lst)
+new_lst.sort()
+print(new_lst)
+new_lst.sort(reverse=True)
+print(new_lst)

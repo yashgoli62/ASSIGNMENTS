@@ -1,0 +1,9 @@
+new_dict={1:'name',2:'age',3:'time'}
+print(new_dict)
+new_dict[2]='roll'
+print(new_dict)
+new_dict.pop(2)
+print(new_dict)
+dic={4:'class',5:'division'}
+mergerd_dic=new_dict+dic
+print(mergerd_dic)

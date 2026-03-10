@@ -1,0 +1,11 @@
+new_set={12,345,34,1222,564,7878}
+n=list(new_set)
+print(n)
+print(n[2])
+o={56,34,436,78,90}
+a=new_set.union(o)
+print(a)
+p=new_set.intersection(o)
+print(p)
+l=new_set.difference(o)
+print(l)
